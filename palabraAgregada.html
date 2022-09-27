@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">                                
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/6b2c7911da.js" crossorigin="anonymous"></script>
+        <title>Challenge2</title>
+    </head>
+    <body>
+        <header>
+            <h1><img src="imagenes/Logo.png" alt="logo de alura"></h1>
+            <div class="titulo">
+                <h1>Ahorcado</h1>
+
+                <nav>
+                    <a href="index.html"></a>
+                    <a href="palabraAgregada.html"></a>         
+
+                </nav>
+
+            </div>
+            
+        </header>
+
+        <main class="principal2">
+
+            <form>
+                
+                <h2 class="h2-agregarPalabra">Ingresar Palabra</h2>              
+
+            </form>
+
+            <section class="titulo-advertencia">
+
+                <div>
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <P>Solo mayusculas</P>
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <P>Maximo 8 letras</P>
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <P>Sin caracteres especiales ni numeros</P>
+
+                </div>
+
+            </section>
+
+            <section class="ingreso-texto">
+
+                <input id="input-padron"class="input-padron" required placeholder="Escribir Aquí" type="text">
+
+            </section>
+
+            <section class="usuario" id="usuario">                
+
+                                    
+                <button onclick="agregarPalabra()" class="boton-agregar" id="boton-agregar">AGREGAR</button> 
+                        
+                                    
+
+                <a href="index.html" class="volver">
+                    <p id="escribir_palabra"></p>
+                    <button id="escondida">Volver al Juego</button>                            
+                </a>                             
+
+            </section>           
+
+        </main>
+
+        <footer>
+            <div class="footer">                
+                
+                <p><i class="fa-solid fa-copyright"></i> Christian Díaz Sánchez, 2022</p>
+
+            </div>
+
+            <div class="footer-link">
+                <ul>
+                    <li><a href="https://github.com/ChristianDiazS" target="_blank" class="github"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/christian-d%C3%ADaz-s%C3%A1nchez-100pre/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+                
+            </div>
+            
+        </footer>
+
+        <script src="ahorcado.js"></script>
+    
+    </body>
+</html>

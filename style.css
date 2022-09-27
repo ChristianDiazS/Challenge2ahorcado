@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1;
+    font: inherit; 
+    background: rgb(9, 146, 146);
+           
+}
+
+header{    
+    padding: 20px;    
+    margin-bottom: 0px;
+      
+}
+
+main{    
+    width: 100%;    
+    margin: auto;
+    padding: 20px;       
+    gap: 30px;    
+    background: darkcyan;        
+}
+.principal2{
+    width: 100%;
+    height: 710px;   
+    margin: auto;
+    padding: 20px;       
+    gap: 30px;    
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+#imagen{
+    width: 300px;    
+}
+
+.imagen{
+    
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    height: 460px;    
+}
+
+.titulo{
+    width: 100%;       
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;     
+}
+
+form{
+    width: 100%;    
+    display: block;
+    font-size: 20px;    
+    padding: 0px;
+}
+
+.h2-agregarPalabra{
+    align-items: flex-start;
+    display: flexbox;
+}
+
+.input-padron{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    display: flexbox;    
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 900;
+    font-style: italic;    
+    font-size: 20px;
+    padding: 70px;
+    background: #000;
+    color: #efefee;
+}
+
+#mensaje{
+    display: block;
+    background-color: #000;
+    color: #efefee;
+    padding: 20px;    
+}
+
+.fa-solid fa-triangle-exclamation{
+    display: flexbox;    
+}
+
+.titulo-advertencia{
+    display: inline-flexbox;
+}
+
+#boton-agregar{
+    left: auto;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    display: inline-block;
+    flex-wrap: wrap;    
+    padding: 15px;
+    gap: 8px;    
+    width: 110px;
+    height: auto;
+    top: 400px;    
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+    font-weight: 900;
+    font-size: 100%;    
+    text-align: center;       
+    border-radius: 20px;
+    margin: 10px;
+    background: darkorange;
+}
+
+.volver{
+    display: inline-block;
+    margin: 10px;
+    flex-wrap: wrap;
+    vertical-align: bottom;    
+}
+
+#palabra_a_adivinar{
+    width: 100%;   
+    height: 4em;    
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 3px solid black;
+    width: 40px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;      
+}
+
+#jugar{    
+    left: auto;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    display: inline-block;
+    flex-wrap: wrap;    
+    padding: 15px;
+    gap: 8px;    
+    width: auto;
+    height: auto;
+    top: 400px;    
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+    font-weight: 900;
+    font-size: 100%;    
+    text-align: center;       
+    border-radius: 20px;    
+    background: chartreuse;       
+}
+
+#escondida{    
+    left: auto;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    display: inline-block;
+    flex-wrap: wrap;    
+    padding: 15px;
+    gap: 8px;    
+    width: auto;
+    height: auto;
+    top: 400px;    
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+    font-weight: 900;
+    font-size: 80%;    
+    text-align: center;       
+    border-radius: 20px;    
+    background: darkorange;
+}
+
+.teclado{
+    text-align: center;
+    margin-top: 30px;
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 9px;
+    width: 100%;
+    margin-top: 20px;        
+}
+
+#letras button{   
+    width: 50px;
+    padding: 2px 0;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 2em;
+    border-radius: 30px;
+    font-style: italic;
+    font-weight: 800;    
+    background: aquamarine;    
+}
+
+#resultado{
+    display: none;
+    padding: 10px;
+    margin: 2em;    
+}
+
+.escondida{
+    display: none;
+    height: 100vh;
+    left: 300px;
+    font-size: 5rem;
+    position: fixed;
+    top: 0px;    
+    align-items: center;
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+
+.footer p{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root{    
+    --github: #000;
+    --linkedin: #0077b5;
+}
+
+.footer-link{
+    padding: 5px;
+    display: flex;        
+    align-items: center;
+    justify-content: center;    
+}
+
+.footer-link ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.footer-link ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: #efefee;
+}
+
+.footer-link ul li a:hover{
+    transform: translateY(-3px) scale(1.05);    
+}
+
+.footer-link ul li .linkedin:hover{
+    background: var(--linkedin);
+}
+
+.footer-link ul li .github:hover{
+    background: var(--github);
+}
+
+
+
+@media screen and (min-width:768px){
+    .main-scale{
+        width: var(--scale-width-tablet);
+    }
+    .imagen{
+        width: var(--scale-width-tablet);
+        margin: 40px auto;
+    }
+    .input-padron  {
+        width: var(--scale-width-tablet);
+        margin: 40px auto;
+    }
+
+    form{
+        width: var(--scale-width-tablet);
+        margin: 40px auto;
+    }
+
+    #mensaje{
+        width: var(--scale-width-tablet);
+        margin: 40px auto;
+    }
+
+}
